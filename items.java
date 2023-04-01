@@ -9,7 +9,7 @@ public class items
     {
         Scanner sc = new Scanner(System.in);
         items[] i1 = new items[10];
-        for(int i = 0;i<2;i++)
+        for(int i = 0;i<10;i++)
         {
             i1[i] = new items();
             System.out.print("Enter Item Number For "+(i+1)+" : ");
@@ -22,7 +22,7 @@ public class items
         }
         System.out.println();
         System.out.println("Printing items At 2 Second !");
-        for(int i=0;i<2;i++)
+        for(int i=0;i<10;i++)
         {
             try
             {
