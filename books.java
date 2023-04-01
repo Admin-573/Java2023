@@ -28,6 +28,7 @@ public class books
         {
             try
             {
+                Thread.sleep(800);
                 System.out.println("----------------------------------");
                 System.out.println("ISBN_NO : "+b1[i].ISBN_NO);
                 System.out.println("Title : "+b1[i].Title);
