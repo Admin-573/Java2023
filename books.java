@@ -28,10 +28,12 @@ public class books
         {
             try
             {
+                System.out.println("----------------------------------");
                 System.out.println("ISBN_NO : "+b1[i].ISBN_NO);
                 System.out.println("Title : "+b1[i].Title);
                 System.out.println("Publisher : "+b1[i].Publisher);
                 System.out.println("Price : "+b1[i].Price);
+                System.out.println("----------------------------------");
             }
             catch(Exception e)
             {
